@@ -96,3 +96,8 @@ h1
 	display:none;
 	background-image:url("img/tło.png");
 }
+
+body
+{
+	color:white;
+}
