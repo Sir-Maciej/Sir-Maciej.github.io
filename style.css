@@ -56,6 +56,16 @@ ul>li
 	
 }
 
+@media screen
+{
+	ul>li
+	{
+		width:50px;
+		background-color:red;
+		font-size:15px;
+	}
+	
+}
 
 li:hover
 {
