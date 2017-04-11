@@ -56,13 +56,26 @@ ul>li
 	
 }
 
-@media screen
+@media handheld(max-width:800px)
 {
 	ul>li
 	{
 		width:50px;
 		background-color:red;
 		font-size:15px;
+	}
+	
+}
+
+@media handheld(min-width:800px) and (max-width:1200px)
+{
+	ul>li
+	{
+		width:50px;
+		background-color:green;
+		font-size:15px;
+		font-weight:bold;
+		border:1px solid pink;
 	}
 	
 }
