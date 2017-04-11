@@ -46,7 +46,7 @@ ul>li
 	margin-right:10px;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 800px) {
    body {
      background-color:pink;
 	 color:red;
@@ -97,8 +97,4 @@ h1
 	background-image:url("img/tło.png");
 }
 
-@media all and (min-width:480px) and (max-width:1300px) {
- article{ 
-    background-color:red;
- z-index:100;}
 }	
