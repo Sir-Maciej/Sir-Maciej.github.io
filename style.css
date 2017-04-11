@@ -45,41 +45,11 @@ ul>li
 	margin-right:10px;
 }
 
-@media handheld
-{
-	ul>li
-	{
-		width:50px;
-		background-color:blue;
-		font-size:15px;
-		color:red;
-	}
-	
-}
-
-@media handheld and(max-width:800px)
-{
-	ul>li
-	{
-		width:40px;
-		background-color:red;
-		font-size:15px;
-	}
-	
-}
-
-@media handheld and(min-width:800px) and (max-width:1200px)
-{
-	ul>li
-	{
-		width:50px;
-		background-color:green;
-		font-size:15px;
-		font-weight:bold;
-		border:1px solid pink;
-	}
-	
-}
+@media handheld {
+   body {
+     background-color:pink;
+   }
+ }
 
 li:hover
 {
