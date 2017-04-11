@@ -46,7 +46,7 @@ ul>li
 	margin-right:10px;
 }
 
-@media (max-width: 800px) {
+@media (max-device width:800px) {
    body {
      background-color:pink;
 
