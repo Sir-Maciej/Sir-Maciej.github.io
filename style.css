@@ -46,10 +46,11 @@ ul>li
 	margin-right:10px;
 }
 
-@media (max-device width:800px) {
+@media (max-device width:1300px) 
+{
    body {
      background-color:pink;
-
+	color:yellow;
    }
  }
 
@@ -97,7 +98,3 @@ h1
 	background-image:url("img/tło.png");
 }
 
-body
-{
-	color:white;
-}
