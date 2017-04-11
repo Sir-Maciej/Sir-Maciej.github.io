@@ -20,7 +20,7 @@ ul, li, ol
 
 #logo
 {
-	font-size:150px;
+	font-size:120px;
 	text-align:center;
 	margin-top:10px;
 	font-family: 'Fontdiner Swanky', cursive;
@@ -52,11 +52,12 @@ ul>li
 		width:50px;
 		background-color:blue;
 		font-size:15px;
+		color:red;
 	}
 	
 }
 
-@media handheld(max-width:800px)
+@media handheld and(max-width:800px)
 {
 	ul>li
 	{
@@ -67,7 +68,7 @@ ul>li
 	
 }
 
-@media handheld(min-width:800px) and (max-width:1200px)
+@media handheld and(min-width:800px) and (max-width:1200px)
 {
 	ul>li
 	{
