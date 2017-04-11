@@ -46,7 +46,7 @@ ul>li
 	margin-right:10px;
 }
 
-@media handheld, screen and (max-width: 1360px) {
+@media handheld and (max-width: 1360px) {
    body {
      background-color:pink;
 	 color:red;
